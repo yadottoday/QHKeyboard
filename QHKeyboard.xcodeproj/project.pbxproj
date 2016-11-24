@@ -13,6 +13,11 @@
 		C672FBF01DE6D7A300CED407 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C672FBEE1DE6D7A300CED407 /* Main.storyboard */; };
 		C672FBF21DE6D7A300CED407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C672FBF11DE6D7A300CED407 /* Assets.xcassets */; };
 		C672FBF51DE6D7A300CED407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C672FBF31DE6D7A300CED407 /* LaunchScreen.storyboard */; };
+		C672FC0E1DE6D8BE00CED407 /* QHKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = C672FC0D1DE6D8BE00CED407 /* QHKeyboard.m */; };
+		C672FC141DE6D96600CED407 /* QHKeyboardBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C672FC131DE6D96600CED407 /* QHKeyboardBtn.m */; };
+		C672FC171DE6D99A00CED407 /* QHKeyboardNumPad.m in Sources */ = {isa = PBXBuildFile; fileRef = C672FC161DE6D99A00CED407 /* QHKeyboardNumPad.m */; };
+		C672FC1A1DE6D9B100CED407 /* QHKeyboardWordPad.m in Sources */ = {isa = PBXBuildFile; fileRef = C672FC191DE6D9B100CED407 /* QHKeyboardWordPad.m */; };
+		C672FC301DE6DD0400CED407 /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C672FC2F1DE6DD0400CED407 /* images.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,15 @@
 		C672FBF11DE6D7A300CED407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C672FBF41DE6D7A300CED407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C672FBF61DE6D7A300CED407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C672FC0C1DE6D8BE00CED407 /* QHKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHKeyboard.h; sourceTree = "<group>"; };
+		C672FC0D1DE6D8BE00CED407 /* QHKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHKeyboard.m; sourceTree = "<group>"; };
+		C672FC121DE6D96600CED407 /* QHKeyboardBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHKeyboardBtn.h; sourceTree = "<group>"; };
+		C672FC131DE6D96600CED407 /* QHKeyboardBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHKeyboardBtn.m; sourceTree = "<group>"; };
+		C672FC151DE6D99A00CED407 /* QHKeyboardNumPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHKeyboardNumPad.h; sourceTree = "<group>"; };
+		C672FC161DE6D99A00CED407 /* QHKeyboardNumPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHKeyboardNumPad.m; sourceTree = "<group>"; };
+		C672FC181DE6D9B100CED407 /* QHKeyboardWordPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHKeyboardWordPad.h; sourceTree = "<group>"; };
+		C672FC191DE6D9B100CED407 /* QHKeyboardWordPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHKeyboardWordPad.m; sourceTree = "<group>"; };
+		C672FC2F1DE6DD0400CED407 /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,15 @@
 		C672FBE41DE6D7A300CED407 /* QHKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				C672FC2F1DE6DD0400CED407 /* images.bundle */,
+				C672FC0C1DE6D8BE00CED407 /* QHKeyboard.h */,
+				C672FC0D1DE6D8BE00CED407 /* QHKeyboard.m */,
+				C672FC121DE6D96600CED407 /* QHKeyboardBtn.h */,
+				C672FC131DE6D96600CED407 /* QHKeyboardBtn.m */,
+				C672FC151DE6D99A00CED407 /* QHKeyboardNumPad.h */,
+				C672FC161DE6D99A00CED407 /* QHKeyboardNumPad.m */,
+				C672FC181DE6D9B100CED407 /* QHKeyboardWordPad.h */,
+				C672FC191DE6D9B100CED407 /* QHKeyboardWordPad.m */,
 				C672FBE81DE6D7A300CED407 /* AppDelegate.h */,
 				C672FBE91DE6D7A300CED407 /* AppDelegate.m */,
 				C672FBEB1DE6D7A300CED407 /* ViewController.h */,
@@ -140,6 +163,7 @@
 				C672FBF51DE6D7A300CED407 /* LaunchScreen.storyboard in Resources */,
 				C672FBF21DE6D7A300CED407 /* Assets.xcassets in Resources */,
 				C672FBF01DE6D7A300CED407 /* Main.storyboard in Resources */,
+				C672FC301DE6DD0400CED407 /* images.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +175,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C672FBED1DE6D7A300CED407 /* ViewController.m in Sources */,
+				C672FC0E1DE6D8BE00CED407 /* QHKeyboard.m in Sources */,
 				C672FBEA1DE6D7A300CED407 /* AppDelegate.m in Sources */,
+				C672FC141DE6D96600CED407 /* QHKeyboardBtn.m in Sources */,
+				C672FC1A1DE6D9B100CED407 /* QHKeyboardWordPad.m in Sources */,
+				C672FC171DE6D99A00CED407 /* QHKeyboardNumPad.m in Sources */,
 				C672FBE71DE6D7A300CED407 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
